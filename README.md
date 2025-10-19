@@ -1,82 +1,88 @@
-SRM Companion 
+  SRM Companion
+
 A comprehensive web-based student management system for SRM University students to track attendance, manage study materials, view timetables, and stay organized throughout the semester.
 
 Overview
-SRM Companion is a student portal web application designed to help students manage their academic life efficiently. The application provides a centralized dashboard for tracking attendance, accessing study materials, viewing weekly timetables, and monitoring academic performance.
 
-Overview
-SRM Companion is a student portal web application designed to help students manage their academic life efficiently. The application provides a centralized dashboard for tracking attendance, accessing study materials, viewing weekly timetables, and monitoring academic performance.
+SRM Companion is a full-featured **student portal web application built to simplify academic management for SRM University students.
+It provides an all-in-one centralized dashboard to monitor attendance, access study materials, view weekly timetables, receive important updates, and explore **university resources — all in one place.
 
-Attendance Alert System:
+ Key Features
 
-Real-time warnings for courses below 75%
-Current percentage display
-Required classes calculation
-Visual progress bar indicators
+ Attendance Alert System
 
-Recent Updates:
+* Real-time attendance tracking and percentage display
+* Smart alerts for subjects below 75%
+* Auto-calculation of required classes to maintain minimum attendance
+* Interactive visual progress bars
 
-Announcement feed
-Important notifications
-"View All" option for complete history
+Study Material Management
 
-Study Materials
-Material Management:
+* Browse and manage notes, PYQs, assignments, reference books, and lab manuals
+* Search materials by title, subject, or keyword
+* Filter by subject (CSE, OS, DS, etc.) or type
+*Star rating system (1–5 stars)
+*Download tracking with count and file size display
 
-Browse notes, PYQs, assignments, reference books, and lab manuals
-Search by title, subject, or keyword
-Filter by subject (CSE, Data Structures, OS, etc.)
-Filter by material type
-Star rating system (1-5 stars)
-Download tracking with count display
-File size display (MB/KB)
+ Upload Materials
 
-Upload Functionality:
+ “Add New Material” form with:
 
-Add new materials via "Add New Material" button
-Form fields:
+ * Title, description, subject & type dropdowns
+ * File upload (PDF/DOC/DOCX up to 10MB)
+ *Optional tags for better discoverability
+ *Real-time validation and instant material display after upload
 
-Title (required)
-Description (required)
-Subject dropdown (required)
-Type dropdown (Notes/PYQ/Assignment/Reference Book/Lab Manual)
-File upload (PDF/DOC/DOCX, max 10MB)
-Optional tags
+ Delete Functionality
 
+ *Trash icon for easy removal
+ *Confirmation dialog before deletion
+ *Instant list update
 
-Real-time validation
-Instant display after upload
+ Additional Modules
 
-Delete Functionality:
-
-Trash icon on each material card
-Confirmation dialog before deletion
-Instant removal from list
-
-Material Types:
-
-Notes - Complete course notes
-PYQ - Previous Year Questions with solutions
-Assignments - Course assignments
-Reference Books - Additional reading materials
-Lab Manuals - Laboratory experiment guides
-
-Additional Features
-
-Lost & Found - Report and find lost items
-Clubs & Societies - Manage club memberships
-Transport Info - Bus routes and schedules
-Marketplace - Buy/sell items with peers
-Placements - Job opportunities and career resources
-Important Links - Quick access to university resources
-Feedback - Submit suggestions and complaints
-Peer Help Forum - Collaborative learning platform
-Profile - Manage personal information
+*Lost & Found – Report and recover lost items
+*Clubs & Societies – Join and manage memberships
+*Transport Info– View bus routes and schedules
+*Marketplace – Buy/sell academic items within the campus
+*Placements – Access job opportunities and career resources
+*Important Links – Direct access to portals like NPTEL, Coursera, and Udemy
+*Peer Help Forum – Discuss and collaborate with batchmates
+*Feedback Section – Submit complaints, suggestions, and ideas
+*Profile Management – Update personal details
 
 Tech Stack
+
 Frontend
 
-React.js (v18.x) - Component-based UI framework
-React Router (v6.x) - Client-side routing
-Tailwind CSS (v3.x) - Utility-first CSS framework
-Lucide React - Icon library
+React.js (v18.x) – Component-based UI framework
+React Router (v6.x) – Seamless client-side routing
+Tailwind CSS (v3.x) – Utility-first responsive styling
+Lucide React– Lightweight icon library
+
+ Backend & Database
+
+MySQL – Structured database for user, attendance, and material data management
+
+Integration Highlights
+
+Integrated NPTEL, Coursera, and Udemy resources for direct access
+ Centralized storage and retrieval of academic data
+ Optimized UI for quick access to frequently used modules
+
+
+Developed and integrated key modules including:
+
+Attendance Alert System with real-time calculations
+Study Material Management with upload, search, filter, and rating features
+Placement & Marketplace modules
+Connected external learning resources and university APIs
+Designed frontend components and database schema (MySQL)for optimized performance
+
+ Keywords
+
+React.js • MySQL • Tailwind CSS • React Router • Lucide React• Student Management System• Web Application • Academic Dashboard • Attendance Tracker •Study Material Management• University Portal • SRM University • Full Stack Development • Modern UI • Real-time Validation`
+
+
+
+
